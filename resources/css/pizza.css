@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pacifico", cursive;
+}
+.pizza_container{
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+    padding: 0 10px;
+}
+.pizza_image{
+    width: 570px;
+    height: 570px;
+    display: flex;
+    padding: 35px;
+    border: 3px solid #fe5f00;
+    border-radius: 15px;
+}
+
+.mini_inform{
+    display: flex;
+    font-weight: 400;
+    color: grey;
+    font-family: "Pacifico", cursive;
+    margin-top: 5px;
+    font-size: 16px;
+    gap: 5px;
+}
+.pizza_title{
+    font-size: 45px;
+}
+.panel_size, .panel_thicknesses{
+    width: 650px;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    border-radius: 15px;
+    border: 3px solid #fe5f00;
+    color: #fe5f00;
+}
+.panel_btn, .panel_thick_btn{
+    width: 33.3%;
+    padding: 0 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel_btn:hover, .panel_thick_btn:hover{
+    background-color: #fe5f00e3;
+    color: white;
+    border-radius: 10px;
+    transition: .3s all;
+}
+.panel_thick_btn{
+    width: 50%;
+}
+
+
+.card_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_image img{
+    width: 100px;
+}
+
+.panel_btn_active{
+    background-color: #fe5f00e3;
+    color: white;
+    border-radius: 10px;
+}
+
+.ingredients_container{
+    margin-top: 20px;
+}
+.ingredients_title{
+    font-size: 25px;
+}
+.card_container{
+    margin-top: 20px;
+    gap: 15px;
+}
+.ingredient_card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #fe5f00;
+    border-radius: 15px;
+    position: relative;
+}
+.card_image{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+.card_title{
+    width: 100%;
+    height: 35px;
+    line-height: 18px;
+    text-align: center;
+}
+.price_pizza{
+    margin-top: 20px;
+}
+.card_price{
+    text-align: center;
+    color: #000000a8;
+    margin-bottom: 5px;
+}
+.card_inform{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_panel{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    left: 4px;
+    top: 190px;
+    gap: 10px;
+}
+.card_plus, .card_minus{
+    border-radius: 15px;
+    border: 2px solid #FE5F00;
+    color: #FE5F00;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    width: 25px;
+    display: flex;
+    padding: 5px 20px;
+    justify-content: center;
+    cursor: pointer;
+}

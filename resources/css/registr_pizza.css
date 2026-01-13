@@ -1,0 +1,212 @@
+*{
+    font-family: "Nunito", sans-serif;
+}
+.main_container{
+    width: 72%;
+    padding-bottom: 65px;
+}
+
+.main_container h2{
+    margin-top: 50px;
+}
+
+.basket_card{
+    display: flex;
+    margin-top: 25px;
+    /* justify-content: space-between; */
+}
+.main_title{
+    font-weight: 800;
+    font-size: 35px;
+}
+.registr_pizza_block{
+    width: 750px;
+    margin-top: 45px;
+}
+.card_img img{
+    width: 65px;
+}
+.card_title{
+    font-weight: 700;
+}
+.card_description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #A1A1A1;
+}
+.card_inform{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.basket_contain_panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #0000001f;
+}
+.btn_clear_basket{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.btn_clear_basket img{
+    width: 14px;
+    height: 14px;
+}
+
+.basket_contain{
+    padding: 35px;
+    border: 1px solid #0000001f;
+    border-radius: 30px;
+}
+
+.card_panel{
+    display: flex;
+    position: relative;
+    left: 290px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.card_price{
+    position: relative;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.card_minus .card_plus{
+    cursor: pointer;
+}
+.card_panel img{
+    width: 15px;
+}
+
+
+/*      person_inform_contain        */
+
+.person_inform_contain{
+    padding: 35px;
+    border: 1px solid #0000001f;
+    border-radius: 30px;
+    margin-top: 45px;
+}
+.input_form {
+    width: 328px;
+}
+.input_form input{
+    width: 328px;
+    height: 48px;
+    border: 1px solid #0000001f;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.form_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+    margin-top: 30px;
+}
+.input_form p{
+    margin-bottom: 5px;
+    font-weight: 700;
+} 
+
+
+/*     address_contain      */
+
+.address_contain{
+    width: 750px;
+    padding: 35px;
+    border: 1px solid #0000001f;
+    border-radius: 30px;
+    margin-top: 45px;
+}
+.address_form {
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+    flex-direction: column;
+}
+.address_form .input_form{
+    width: 100%;
+}
+.address_form .input_form input{
+    width: 100%;
+}
+#address_comment{
+    height: 120px;
+}
+.address_time{
+    margin-top: 25px;
+}
+
+
+/*        total_contain          */
+
+.total_contain{
+    width: 450px;
+    height: 480px;
+    position: absolute;
+    top: 320px;
+    right: 19%;
+    border: 1px solid #0000001f;
+    padding: 40px 45px;
+    border-radius: 30px;
+}
+.total_inform p{
+    font-size: 22px;
+}
+.total_inform h3{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.check_inform{
+    border-top: 1px solid #0000001f;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid #0000001f;
+    padding-bottom: 30px;
+}
+.check_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item_title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.check_icon{
+    margin-top: 5px;
+}
+.promokod{
+    font-size: 18px;
+    font-weight: 400;
+    color: #777777;
+    margin-top: 20px;
+}
+.payment_btn{
+    width: 100%;
+    height: 60px;
+    background-color: #FE5F00;
+    border-radius: 15px;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+.check_price{
+    font-size: 18px;
+    font-weight: 700;
+}
+.account{
+    margin: 0;
+}
