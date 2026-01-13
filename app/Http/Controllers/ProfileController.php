@@ -50,7 +50,7 @@ class ProfileController extends Controller
         //     $userData[$cookie->getName()] = base64_decode($cookie->getValue());
         // }
 
-        dd($data['tokenValue']);
+        // dd($data['tokenValue']);
 
         return view('profile', [
             'loggedUser' => $loggedUser,

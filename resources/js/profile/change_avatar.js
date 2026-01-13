@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     avatarFormBtn.addEventListener('click', async (e) => {
         e.preventDefault();
-
+        
         const fileInput = document.getElementById('avatar');
 
         console.log(fileInput);
