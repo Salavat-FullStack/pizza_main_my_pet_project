@@ -64,12 +64,14 @@
                     <div class="change_role change_btn">поменять роль</div>
                 </div>
 
-                <div class="avatar_modal">
+                <div class="avatar_modal display_none">
                     <div class="avatar_modal_cont">
+
+                        <img src="{{ asset('images/icons/close_icons.png') }}" alt="close" class="close_modal">
 
                         <div class="avatar_modal_img avatar">
                             @if ($avatarUrl)
-                                <img src="{{ 'http://localhost:1000' . $avatarUrl }}" alt="avatar">
+                                <img src="{{ 'http://localhost:1000' . $avatarUrl }}" alt="avatar" id="img_avatar">
                             @else  
                                 <div class="avatar avatar_no_url"></div>  
                             @endif
@@ -92,6 +94,14 @@
 
                     </div>
                 </div>
+
+                <div class="change_role_modal">
+                    <div class="change_role_cont">
+                        
+                    </div>
+                </div>
+
+
             </div>
 
         </div>

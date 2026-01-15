@@ -1,6 +1,15 @@
 document.addEventListener('DOMContentLoaded',()=>{
     const avatarFormBtn = document.getElementById('avatarFormBtn');
 
+    document.getElementById('avatar').addEventListener('change', function (e) {
+        const file = e.target.files[0];
+
+        if (!file) return;
+
+        const img = document.getElementById('img_avatar');
+        img.src = URL.createObjectURL(file);
+    });
+
     avatarFormBtn.addEventListener('click', async (e) => {
         e.preventDefault();
         
