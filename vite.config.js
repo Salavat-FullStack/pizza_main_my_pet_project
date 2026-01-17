@@ -15,6 +15,7 @@ export default defineConfig({
                 'resources/css/registr_pizza.css',
                 'resources/css/profile/profile.css',
                 'resources/css/profile/change_avatar_modal.css',
+                'resources/css/profile/change_role_modal.css',
                 'resources/js/nav.js', 
                 'resources/js/pizza.js', 
                 'resources/js/filter.block.js',
@@ -26,7 +27,8 @@ export default defineConfig({
                 'resources/js/registr_pizza.js',
                 'resources/js/shope_function.js',
                 'resources/js/profile/profile.js',
-                'resources/js/profile/change_avatar.js'
+                'resources/js/profile/change_avatar.js',
+                'resources/js/profile/change_role.js',
             ],
             refresh: true,
         }),

@@ -12,7 +12,10 @@
         'resources/css/main.css',
         'resources/css/profile/profile.css',
         'resources/css/profile/change_avatar_modal.css',
-        'resources/js/profile/change_avatar.js'
+        'resources/css/profile/change_role_modal.css',
+        'resources/js/profile/change_avatar.js',
+        'resources/js/profile/change_role.js',
+
     ])
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -97,7 +100,38 @@
 
                 <div class="change_role_modal">
                     <div class="change_role_cont">
-                        
+                        <img src="{{ asset('images/icons/close_icons.png') }}" alt="close" class="close_modal_role">
+
+                        <div class="profile_inform_cont">
+                            <img src="{{ 'http://localhost:1000' . $avatarUrl }}" alt="profile_img" class="profile_img">
+
+                            <div class="profile_inform">
+                                <h2 class="user_name">{{ $userData['name'] }}</h2>
+                                <div class="role_block">
+                                    <h3 class="current_role">Текущая роль :</h3>
+                                    <p class="profile_role">{{ $userData['role'] }}</p>
+                                </div>
+                                <div class="description">
+                                    Чтобы изменить роль, нужно личное подтверждение создателя! Отправьте запрос — он будет обработан в ближайшее время.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel_change_role">
+                            <div class="comment">
+                                <p>Комментарий :</p>
+                                <textarea name="comment" id="" cols="30" rows="8" class="comment_input"></textarea>
+                            </div>
+                            <div class="role">
+                                <p>Выберите роль :</p>
+                                <div class="role_box">
+                                    <div class="role_btn admin_btn">Админ</div>
+                                    <div class="role_btn seller_btn">Продавец</div>
+                                </div>
+
+                                <div class="send_btn">Отправить</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
